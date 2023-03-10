@@ -3,7 +3,7 @@ import os
 import webbrowser
 
 def link():
-    os.startfile('')
+    os.startfile('https://astheum.github.io/Pedido-Daniel/')
 
 def abrir_janela():
     janela02 = Tk()
