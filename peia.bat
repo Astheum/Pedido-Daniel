@@ -1,0 +1,2 @@
+python tunha.py
+loop
