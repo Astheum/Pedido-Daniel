@@ -1,14 +1,23 @@
 @charset "UTF-8";
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 body{
-    background-color: rgb(208, 208, 208);
+    background: url(rain.svg) no-repeat fixed;
+    background-size: cover;
 }
 
 section{
+    padding: 100px;
+    color: white;
     margin: 0 auto;
-    background-color: rgb(208, 208, 208);
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.450);
+    border-radius: 100px;
+    height: 75vh;
     width: 80vw;
+    border: 3px solid rgb(245, 123, 144);
 }
 
 h1{
@@ -26,9 +35,10 @@ p{
     font-size: 2rem;
     padding: 50px;
     text-align: justify;
+    font-weight: 500;
 }
 
-div{
+div.link{
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -36,7 +46,7 @@ div{
 
 a{
     font-size: 2rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.600);
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
@@ -45,7 +55,7 @@ a{
 }
 
 a:hover{
-    background-color: red;
+    background-color: rgba(246, 95, 120, 0.594);
     color: white;
     font-weight: bold;
 }
