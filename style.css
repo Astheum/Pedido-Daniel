@@ -1,7 +1,26 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Sen', sans-serif;
+    src: url(fonts/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SenBold', sans-serif;
+    src: url(fonts/Sen-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SenExtraBold', sans-serif;
+    src: url(fonts/Sen-ExtraBold.ttf);
+}
+
 ::-webkit-scrollbar{
     display: none;
+}
+
+*{
+    font-family: 'SenExtraBold', sans-serif;
 }
 
 body{
@@ -21,17 +40,20 @@ section{
 }
 
 h1{
+    font-family: 'SenExtraBold', sans-serif;
     font-size: 5rem;
     text-align: center;
     margin: -10px;
 }
 
 h2{
+    font-family: 'SenBold', sans-serif;
     font-size: 1.5rem;
     text-align: center;
 }
 
 p{
+    font-family: 'Sen', sans-serif;
     font-size: 2rem;
     padding: 50px;
     text-align: justify;
